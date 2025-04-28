@@ -25,8 +25,10 @@ function setup() {
 
 
   function Billede(){
-    let img = loadImage("https://static.vecteezy.com/system/resources/thumbnails/048/736/805/small_2x/man-celebrating-success-with-arms-raised-showing-triumph-and-joy-png.png");
-    image(img, 0, 100, 1600, 700);
+    let img
+    img = loadImage("Man-Happy.jpg");
+    image(img);
+    console.log("hello :)")
   }
 
 }
