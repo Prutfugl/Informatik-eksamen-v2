@@ -4,6 +4,7 @@ function setup() {
 
   DagensNyhed();
   TidOgDato();
+  Billede();
 
   function DagensNyhed(){
     fill("blue");
@@ -22,6 +23,11 @@ function setup() {
     text(hour() + ":" + minute() + ":" + second(), 700, 870);
   }
 
+
+  function Billede(){
+    let img = loadImage("https://static.vecteezy.com/system/resources/thumbnails/048/736/805/small_2x/man-celebrating-success-with-arms-raised-showing-triumph-and-joy-png.png");
+    image(img, 0, 100, 1600, 700);
+  }
 
 }
 
