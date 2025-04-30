@@ -7,7 +7,7 @@ let imageTimer;
 let fadeAlpha = 255; // Start fully opaque for the initial image
 let fadingOut = false;
 const switchInterval = 20000; // Time in milliseconds between image changes
-const fadeDuration = 100; // Duration of each fade step in milliseconds
+const fadeDuration = 200; // Duration of each fade step in milliseconds
 
 function preload() {
   img = loadImage("mad.png");
